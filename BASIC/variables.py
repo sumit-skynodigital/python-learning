@@ -38,7 +38,7 @@ l, m, n=cars
 print(l,m,n)
 
 
-#In the print() function, you output multiple variables, separated by a comma:but can't do it string and number
+#In the print() function, you output multiple variables, separated by a comma:but can't do it string and number but you can add plus 
 d="Python "
 e="is "
 f="good"
@@ -65,11 +65,16 @@ To change the value of a global variable inside a function, refer to the variabl
 """
 
 sub="Testing"
+min=33
 
 def myfunc():
+    max=100
     global sub      #global variable is change inside the fucntion using global keyword
-    sub ="QA"   
+    sub ="QA" 
+    print("Maximum=",max)  
 myfunc()
 
 print(sub)
+print("Mininmum=",min)
+
 
