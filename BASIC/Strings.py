@@ -38,7 +38,27 @@ if "Travel" not in txt:
 for c in "banana":
     print(c)
     
+#slicing can also be done with the strings both positive and negative, and the strating index is [0]
+print(txt[0:20])
+print(txt[-18:-1])
+print(txt.upper())  #This will convert the string to upper case
+print(txt.lower())   #This will convert the string to lower case
+print(txt.strip())   #This will remove any whitespace from the beginning or the end
+print(txt.replace("mind","soul"))  #This will replace the word mind with soul
+print(txt.split(" "))   #This will split the string into a list
 
 
 
+#String concatenation
+x="Welcome"
+y="to string module"    
+z=x+y
+w=x+" "+y  #adding a space between two strings
+print(z)    
+print(w)
 
+
+#Better way to concatenate strings is using f-strings() method
+age=25
+text=f"my name is John, and I am {age}"
+print(text)
