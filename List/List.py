@@ -3,6 +3,7 @@
 #List items can be of any data type like string, int, float, bool etc.
 #List are indexed, the first item has index [0], the second item has index [1] etc.
 #It is also possible to use the list() constructor when creating a new list.
+#From Python's perspective, lists are defined as objects with the data type 'list':
 fruits=["apple","mango","cherry"]
 print(fruits)
 print("Welcome to list module")
